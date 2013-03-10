@@ -1,0 +1,75 @@
+#game {
+    color: #fff;
+    float: right;
+    font-size: 18px;
+    height: 600px;
+    width: 350px;
+}
+
+#game h1 {
+    font-size: 30px;
+}
+
+#game p {
+    margin: 0 20px;
+}
+
+#game a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#game a:hover {
+    text-decoration: underline;
+}
+
+#game a.button {
+    background: #185da8;
+    border-radius: 5px;
+    display: block;
+    font-size: 30px;
+    margin: 40px 0 0 45px;
+    padding: 10px;
+    width: 200px;
+}
+
+#game a.button:hover {
+    background: #2488f5;
+    color: #fff;
+    text-decoration: none;
+}
+
+#gameCanvas {
+    background: #001022;
+}
+
+#gameUI {
+    height: 600px;
+    position: absolute; /* Places UI on top of the canvas */
+    width: 350px;
+}
+
+
+#gameIntro, #gameComplete {
+    background: rgba(0, 0, 0, 0.5);
+    margin-top: 100px;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#gameComplete {
+    display: none;
+}
+
+#gameStats {
+    display: none;
+    font-size: 14px;
+    margin: 20px 0;
+}
+
+#gameStats .gameReset {
+    margin: 20px 20px 0 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
