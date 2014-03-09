@@ -394,6 +394,6 @@ $(document).ready(function() {
             setTimeout(animate, 33);
         };
     };
-    
+    //really get started
     init();
 });
